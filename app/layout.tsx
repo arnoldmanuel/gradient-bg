@@ -24,6 +24,13 @@ export const metadata: Metadata = {
 		locale: "en_US",
 		type: "website",
 	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Gradient Background Generator",
+		description:
+			"Create beautiful gradient backgrounds with noise and glassmorphism effects",
+		images: ["/og.png"],
+	},
 };
 
 export default function RootLayout({
